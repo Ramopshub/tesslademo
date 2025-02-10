@@ -1,0 +1,9 @@
+jobs:
+  run-shell-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run inline shell commands
+        run: |
+          echo "Hello, World!"
+          ls -l
+          pwd
